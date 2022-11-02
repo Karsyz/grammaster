@@ -1,0 +1,19 @@
+header svg {
+     height: 50px;
+     margin: 10px;
+}
+
+.tableWrapper {
+     min-width: 350px;
+     max-width: 600px;
+     width: 60vw;
+}
+
+input {
+     width: 100px;
+}
+
+table input {
+     width: 50px;
+     text-align: right;
+}

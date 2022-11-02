@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Bakers Percentages Batch Calculator">
+		<title>Gram-Master: The Baker's Percentages Batch Calculator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- CSS only -->
+		
+		<!-- BootStrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/295cd3caf5.js" crossorigin="anonymous"></script>
+
+	</head>
+
+	<body>
+		
+		<header class="d-flex flex-column align-items-center justify-content-center mb-3">
+			<!-- Logo SVG -->
+			<svg
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  id="svg8"
+  version="1.1"
+  viewBox="0 0 105.83333 100.54167"
+  height="76"
+  width="80">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer4">
+    <rect
+       y="8.9058594e-06"
+       x="-5.7529296e-06"
+       height="100.54166"
+       width="105.83334"
+       id="rect4880"
+       style="fill:#ffffff;stroke-width:0.26458332" />
+  </g>
+  <g
+     transform="translate(0,-196.45832)"
+     id="layer1">
+    <path
+       transform="matrix(0.26458333,0,0,0.26458333,0,196.45832)"
+       id="rect3717"
+       d="M 0 0 L 0 380 L 400 380 L 400 0 L 0 0 z M 10 10 L 390 10 L 390 370 L 10 370 L 10 10 z "
+       style="fill:#000000;stroke-width:2.00010729" />
+  </g>
+  <g
+     transform="translate(0,-5.2916667)"
+     id="layer3">
+    <path
+       id="rect3750"
+       d="M 10.583333,15.875 V 95.25 h 7.317619 v -2.267805 h -4.898571 v -74.83939 h 79.828572 v 74.83939 H 88.106722 V 95.25 H 95.25 V 15.875 Z"
+       style="display:inline;fill:#808080;stroke-width:0.23422304" />
+  </g>
+  <g
+     transform="translate(0,-5.2916667)"
+     style="display:inline"
+     id="layer2">
+    <g
+       id="text3715"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:100.54167175px;line-height:0.60000002;font-family:Arial;-inkscape-font-specification:'Arial Heavy';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1819942"
+       transform="matrix(0.97769872,0,0,0.95994229,3.252554,-3.9687423)"
+       aria-label="k">
+      <path
+         id="path6571"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:100.54167175px;line-height:0.60000002;font-family:Arial;-inkscape-font-specification:'Arial Heavy';stroke-width:1.10920608"
+         d="M 22.100067,33.904995 H 41.308278 V 70.723522 L 55.345047,54.543646 H 78.478014 L 60.885878,71.642834 79.493832,103.35907 H 58.300157 l -9.92732,-19.581328 -7.064559,6.894834 V 103.35907 H 22.100067 Z" />
+    </g>
+  </g>
+			</svg>
+			<!-- <img src="https://i.ibb.co/hfv2jFx/karsyz-logo.png" alt="Karsyz Logo"> -->
+			<h1>Gram-Master</h1>
+			<h3>Bakers Percentages Batch Calculator</h3>
+		</header>	
+
+		<main class="d-flex flex-column align-items-center mb-3">
+			
+			<div class="tableWrapper">
+			
+			<div class="d-flex flex-column align-items-start">
+				<h6 class=""><label for="recipeMass">Total Recipe Mass = </label>
+				<input id="recipeMass" type="text" value="1000"> g</h6>
+					
+				<h6 class=""><label for="qtyInRecipe">Qty In Recipe = </label>
+				<input id="qtyInRecipe" type="text" value="3"></h6>
+					
+				<h6 class=""><label for="totalQty">Total Qty Required = </label>
+				<input id="totalQty" type="text" value="20"></h6>
+			</div>
+
+				<table class="table table-striped mb-0">
+					<thead class="table-dark">
+						<th class="col-3 " scope="col">Ingredients</th>
+						<th class="col-3 text-end" scope="col">%</th>
+						<th class="col-3 text-end" scope="col">Mass Each</th>
+						<th class="col-3 text-end" scope="col">Mass Total</th>
+					</thead>
+					<tbody class="">
+						<tr>
+							<td class="">Flour</td>
+							<td class="text-end jr">100</td>
+							<td class="text-end" id="">00000 g</td>
+							<td class="text-end" id="">00000 g</td>
+						</tr>
+						<tr>
+							<td class="">Water</td>
+							<td class="text-end"><input id="water" type="text" value="65"></td>
+							<td class="text-end" id="waterEach">00000 g</td>
+							<td class="text-end" id="waterBatch">00000 g</td>
+						</tr>
+						<tr>
+							<td class="">Salt</td>
+							<td class="text-end"><input id="salt" type="text" value="1.5"></td>
+							<td class="text-end" id="saltEach">00000 g</td>
+							<td class="text-end" id="saltBatch">00000 g</td>
+						</tr>
+						<tr>
+							<td class="">Yeast</td>
+							<td class="text-end"><input id="yeast" type="text" value="1.5"></td>
+							<td class="text-end" id="yeastEach">00000 g</td>
+							<td class="text-end" id="yeastBatch">00000 g</td>
+						</tr>
+						<tr>
+							<td class="">Sugar</td>
+							<td class="text-end"><input id="sugar" type="text" value="5"></td>
+							<td class="text-end" id="sugarEach">00000 g</td>
+							<td class="text-end" id="sugarBatch">00000 g</td>
+						</tr>
+						<tr>
+							<td class="">Olive Oil</td>
+							<td class="text-end"><input id="oliveOil" type="text" value="5"></td>
+							<td class="text-end" id="oliveOilEach">00000 g</td>
+							<td class="text-end" id="oliveOilBatch">00000 g</td>
+						</tr>
+					</tbody>
+					<tfoot class="table-info">
+						<th class="col-3 " scope="col">Totals</th>
+						<th class="col-3 text-end" scope="col" id=""></th>
+						<th class="col-3 text-end" scope="col" id="">00000 g</th>
+						<th class="col-3 text-end" scope="col" id="">00000 g</th>
+					</tfoot>
+				</table>
+			</div>
+		<div class="">
+			<a href="" class="fa-brands fa-github fa-2x "></a>
+			<a href="" class="fa-solid fa-briefcase fa-2x "></a>
+		</div>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
