@@ -1,0 +1,22 @@
+{
+  "name": "bakinggrammaster",
+  "version": "1.0.0",
+  "description": "Bakers Percentages Batch Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karsyz/grammaster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karsyz/grammaster/issues"
+  },
+  "homepage": "https://github.com/Karsyz/grammaster#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

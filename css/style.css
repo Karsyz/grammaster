@@ -17,3 +17,30 @@ table input {
      width: 50px;
      text-align: right;
 }
+
+img {
+     width: 70px;
+}
+
+.ko-fi::after {
+     content: '\f004';
+     font-weight: 900;
+     font-size: 13px;
+     color: #fff;
+     position: absolute;
+     margin: 6px 0 0 -29px;
+}
+
+/* @media screen and (max-width: 400px) {
+     h1 {
+          font-size: 5rem !important;
+     }
+     
+     table {
+          --bs-body-font-size: 3rem;
+     }
+
+
+
+     
+} */

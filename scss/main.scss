@@ -1,0 +1,22 @@
+// Custom Variables
+$primary: #3c9dbb;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$custom-theme-color: (
+  "altLight": #cfb72c
+);
+
+$theme-colors: map-merge($custom-theme-color, $theme-colors);
+
+// @include media("<=phone") {
+//   background-color: #e48989;
+// }
+
+
+
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
