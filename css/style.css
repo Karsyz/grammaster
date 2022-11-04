@@ -6,7 +6,7 @@ header svg {
 .tableWrapper {
      min-width: 350px;
      max-width: 600px;
-     width: 60vw;
+     width: 90vw;
 }
 
 input {
@@ -31,16 +31,6 @@ img {
      margin: 6px 0 0 -29px;
 }
 
-/* @media screen and (max-width: 400px) {
-     h1 {
-          font-size: 5rem !important;
-     }
-     
-     table {
-          --bs-body-font-size: 3rem;
-     }
-
-
-
-     
-} */
+.wsNoWrap {
+     white-space: nowrap;
+ }

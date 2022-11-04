@@ -2,17 +2,14 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Bakers Percentages Batch Calculator">
-		<title>Gram-Master: The Baker's Percentages Batch Calculator</title>
-
-		
+  	<meta name="description" content="Recipe Batch Size Calculator With Bakers Percentages">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Gram-Master: The Baker's Percentages Batch Size Calculator</title>
 		<!-- BootStrap -->
 		<link href="/bakingGramMaster/css/main.min.css" rel="stylesheet">
-		
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/295cd3caf5.js" crossorigin="anonymous"></script>
-		
-		<!-- Manual CSS -->
+		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css">
 		
 	</head>
@@ -21,99 +18,98 @@
 		<header class="d-flex flex-column align-items-center justify-content-center mb-3">
 			<!-- Logo SVG -->
 			<svg
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:cc="http://creativecommons.org/ns#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns="http://www.w3.org/2000/svg"
-  id="svg8"
-  version="1.1"
-  viewBox="0 0 105.83333 100.54167"
-  height="76"
-  width="80">
-  <defs
-     id="defs2" />
-  <metadata
-     id="metadata5">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer4">
-    <rect
-       y="8.9058594e-06"
-       x="-5.7529296e-06"
-       height="100.54166"
-       width="105.83334"
-       id="rect4880"
-       style="fill:#ffffff;stroke-width:0.26458332" />
-  </g>
-  <g
-     transform="translate(0,-196.45832)"
-     id="layer1">
-    <path
-       transform="matrix(0.26458333,0,0,0.26458333,0,196.45832)"
-       id="rect3717"
-       d="M 0 0 L 0 380 L 400 380 L 400 0 L 0 0 z M 10 10 L 390 10 L 390 370 L 10 370 L 10 10 z "
-       style="fill:#000000;stroke-width:2.00010729" />
-  </g>
-  <g
-     transform="translate(0,-5.2916667)"
-     id="layer3">
-    <path
-       id="rect3750"
-       d="M 10.583333,15.875 V 95.25 h 7.317619 v -2.267805 h -4.898571 v -74.83939 h 79.828572 v 74.83939 H 88.106722 V 95.25 H 95.25 V 15.875 Z"
-       style="display:inline;fill:#808080;stroke-width:0.23422304" />
-  </g>
-  <g
-     transform="translate(0,-5.2916667)"
-     style="display:inline"
-     id="layer2">
-    <g
-       id="text3715"
-       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:100.54167175px;line-height:0.60000002;font-family:Arial;-inkscape-font-specification:'Arial Heavy';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1819942"
-       transform="matrix(0.97769872,0,0,0.95994229,3.252554,-3.9687423)"
-       aria-label="k">
-      <path
-         id="path6571"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:100.54167175px;line-height:0.60000002;font-family:Arial;-inkscape-font-specification:'Arial Heavy';stroke-width:1.10920608"
-         d="M 22.100067,33.904995 H 41.308278 V 70.723522 L 55.345047,54.543646 H 78.478014 L 60.885878,71.642834 79.493832,103.35907 H 58.300157 l -9.92732,-19.581328 -7.064559,6.894834 V 103.35907 H 22.100067 Z" />
-    </g>
-  </g>
+			  viewBox="0 0 105.83333 100.54167"
+			  height="380"
+			  width="400">
+			  <defs
+			     id="defs2" />
+			  <metadata
+			     id="metadata5">
+			    <rdf:RDF>
+			      <cc:Work
+			         rdf:about="">
+			        <dc:format>image/svg+xml</dc:format>
+			        <dc:type
+			           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+			        <dc:title></dc:title>
+			      </cc:Work>
+			    </rdf:RDF>
+			  </metadata>
+			  <g
+			     id="layer4">
+			    <rect
+			       y="8.9058594e-06"
+			       x="-5.7529296e-06"
+			       height="100.54166"
+			       width="105.83334"
+			       id="rect4880"
+			       style="fill:#ffffff;stroke-width:0.26458332" />
+			  </g>
+			  <g
+			     transform="translate(0,-196.45832)"
+			     id="layer1">
+			    <path
+			       transform="matrix(0.26458333,0,0,0.26458333,0,196.45832)"
+			       id="rect3717"
+			       d="M 0 0 L 0 380 L 400 380 L 400 0 L 0 0 z M 10 10 L 390 10 L 390 370 L 10 370 L 10 10 z "
+			       style="fill:#000000;stroke-width:2.00010729" />
+			  </g>
+			  <g
+			     transform="translate(0,-5.2916667)"
+			     id="layer3">
+			    <path
+			       id="rect3750"
+			       d="M 10.583333,15.875 V 95.25 h 7.317619 v -2.267805 h -4.898571 v -74.83939 h 79.828572 v 74.83939 H 88.106722 V 95.25 H 95.25 V 15.875 Z"
+			       style="display:inline;fill:#808080;stroke-width:0.23422304" />
+			  </g>
+			  <g
+			     transform="translate(0,-5.2916667)"
+			     style="display:inline"
+			     id="layer2">
+			    <g
+			       id="text3715"
+			       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:100.54167175px;line-height:0.60000002;font-family:Arial;-inkscape-font-specification:'Arial Heavy';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1819942"
+			       transform="matrix(0.97769872,0,0,0.95994229,3.252554,-3.9687423)"
+			       aria-label="k">
+			      <path
+			         id="path6571"
+			         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:100.54167175px;line-height:0.60000002;font-family:Arial;-inkscape-font-specification:'Arial Heavy';stroke-width:1.10920608"
+			         d="M 22.100067,33.904995 H 41.308278 V 70.723522 L 55.345047,54.543646 H 78.478014 L 60.885878,71.642834 79.493832,103.35907 H 58.300157 l -9.92732,-19.581328 -7.064559,6.894834 V 103.35907 H 22.100067 Z" />
+			    </g>
+			  </g>
 			</svg>
 			<h1>Gram-Master</h1>
 			<h3>Recipe Batch Size Converter</h3>
-			<h4>With Bakers Percentages</h4>
+			<h4>With Baker's Percentages</h4>
 		</header>	
 
 		<main class="d-flex flex-column align-items-center mb-3">
 			
 			<div class="tableWrapper">
 			
-			<div class="d-flex flex-column align-items-start">
-				<h6 class=""><label for="recipeFlourMass">Total Recipe Flour Mass = </label>
-				<input id="inputRecipeFlourMass" type="text" value="1000"> g</h6>
+			<div class="d-flex flex-column">
+				<h6 class="d-flex flex-row align-items-center justify-content-between">
+						<label for="recipeFlourMass">Total Recipe Flour Mass (g)</label>
+						<input class="col-2 text-end wsNoWrap" id="inputRecipeFlourMass" type="text" value="1000">
+				</h6>
 					
-				<h6 class=""><label for="qtyInRecipe">Qty In Recipe = </label>
-				<input id="inputQtyInRecipe" type="text" value="3"></h6>
+				<h6 class="d-flex flex-row align-items-center justify-content-between">
+					<label for="qtyInRecipe" >Qty In Recipe</label>
+					<input class="col-2 text-end wsNoWrap" id="inputQtyInRecipe" type="text" value="3">
+				</h6>
 					
-				<h6 class=""><label for="totalQty">Batch Qty Required = </label>
-				<input id="inputTotalQty" type="text" value="20"></h6>
+				<h6 class="d-flex flex-row align-items-center justify-content-between">
+					<label for="totalQty">Qty Required In Batch</label>
+					<input class="col-2 text-end wsNoWrap" id="inputTotalQty" type="text" value="20">
+				</h6>
 			</div>
 
 				<table class="table table-striped mb-0">
 					<thead class="table-dark">
 						<th class="col-3 " scope="col">Ingredients</th>
-						<th class="col-3 text-end" scope="col">%</th>
-						<th class="col-3 text-end" scope="col">Mass Each</th>
-						<th class="col-3 text-end" scope="col">Mass Total</th>
+						<th class="col-3 text-end wsNoWrap" scope="col">%</th>
+						<th class="col-3 text-end wsNoWrap" scope="col">Mass Each</th>
+						<th class="col-3 text-end wsNoWrap" scope="col">Mass Total</th>
 					</thead>
 					<tbody class="">
 						<tr>
@@ -155,9 +151,9 @@
 					</tbody>
 					<tfoot class="table-info">
 						<th class="col-3 " scope="col">Totals</th>
-						<th class="col-3 text-end" scope="col" id=""></th>
-						<th class="col-3 text-end" scope="col" id="totalMassEach"> g</th>
-						<th class="col-3 text-end" scope="col" id="totalMassBatch"> g</th>
+						<th class="col-3 text-end wsNoWrap" scope="col" id=""></th>
+						<th class="col-3 text-end wsNoWrap" scope="col" id="totalMassEach"> g</th>
+						<th class="col-3 text-end wsNoWrap" scope="col" id="totalMassBatch"> g</th>
 					</tfoot>
 				</table>
 			</div>

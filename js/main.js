@@ -25,6 +25,7 @@ const
   // outputs & calculations
   flourEach =       Number( (inRecipeFlourMass / inQtyInRecipe) .toFixed(2) ),
   flourBatch =      Number( (flourEach * inTotalQty)            .toFixed(2) ),
+
   waterEach =       Number( (inWater * flourEach)               .toFixed(2) ),
   waterBatch =      Number( (waterEach * inTotalQty)            .toFixed(2) ),
   saltEach =        Number( (inSalt * flourEach)                .toFixed(2) ),
@@ -57,3 +58,35 @@ const
   document.getElementById('totalMassEach').innerText = `${totalMassEach} g`
   document.getElementById('totalMassBatch').innerText = `${totalMassBatch} g`
 }
+
+
+// be able to add ingredients to the list and all of the values update
+// be able to save and get recipes from local storage and 
+// add functionality to convert a volume measures recipe to a mass/bakers percentages recipe
+
+// plus button
+// press plus button, brings up a new table row with input values for the name and percentage
+// fill out form and press add button
+// on submit will create a new object
+
+// create objects with a constructor
+// let ingredientsList = [
+//   {
+//     name: flour,
+//     pcentOfFlour: 100,
+//     massEach: Number( (inRecipeFlourMass / inQtyInRecipe) .toFixed(2) ),
+//     massBatch: Number( (inRecipeFlourMass / inQtyInRecipe) .toFixed(2) ),
+//     },
+// ]
+
+
+// function massEach(recipeFlourMass, qtyInRecipe) {
+//   return recipeFlourMass / qtyInRecipe
+// }
+
+// function massBatch(recipeFlourMass, inTotalQty ) {
+
+// }
+
+
+// responsive styling, learn and use sass
